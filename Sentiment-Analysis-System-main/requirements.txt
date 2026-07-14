@@ -1,0 +1,21 @@
+# Core ML
+torch>=2.2.0
+transformers>=4.41.0
+scikit-learn>=1.4.0
+numpy>=1.26.0
+
+# HuggingFace datasets + model hub
+datasets>=2.19.0
+huggingface_hub>=0.23.0
+
+# Preprocessing
+emoji==2.12.1
+langdetect==1.0.9
+deep-translator==1.11.4
+contractions==0.1.73
+nltk==3.9.1
+
+# UI + Visualization
+streamlit>=1.35.0
+plotly>=5.22.0
+pandas>=2.2.0
