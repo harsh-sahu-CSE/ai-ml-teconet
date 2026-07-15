@@ -1,0 +1,44 @@
+# Python
+upload_model.py
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Model checkpoints — large binary files, not committed to GitHub
+# Run python train.py to regenerate them
+checkpoints/
+
+# Preprocessing cache — regenerated automatically
+checkpoints/preprocessed_cache.pkl
+
+# HuggingFace cache
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Local/college files
+clg/
+diagrams.html
